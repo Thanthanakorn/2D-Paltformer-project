@@ -1,12 +1,10 @@
-using System;
 using System.Collections;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.Serialization;
+using UnityEngine.PlayerLoop;
 
-public class EmemyMovement : MonoBehaviour
+public class EnemyMovement : MonoBehaviour
 {
-    [SerializeField] private float moveSpeed = 1f;
+    [SerializeField] private float moveSpeed = 3f;
     private Rigidbody2D _rgbd2D;
     private Animator _myAnimator;
     private CapsuleCollider2D _myCapsuleCollider;
@@ -17,6 +15,7 @@ public class EmemyMovement : MonoBehaviour
     void Start()
     {
         _rgbd2D = GetComponent<Rigidbody2D>();
+        _rgbd2D.isKinematic = true;
         _myAnimator = GetComponent<Animator>();
         _myCapsuleCollider = GetComponent<CapsuleCollider2D>();
     }
@@ -25,6 +24,7 @@ public class EmemyMovement : MonoBehaviour
     {
         _rgbd2D.velocity = new Vector2(moveSpeed, 0f);
         Walking();
+        
     }
 
     void Walking()
@@ -55,13 +55,14 @@ public class EmemyMovement : MonoBehaviour
     {
         if (other.CompareTag("Bullet"))
         {
-            _myCapsuleCollider.size = new Vector2(0.4f, 0f);
+            _rgbd2D.isKinematic = false;
+            _myCapsuleCollider.size = new Vector2(0.4f, 0.03f);
             _myAnimator.SetTrigger(IsDying);
-            gameObject.layer = LayerMask.NameToLayer("Background");
+            GameObject o;
+            (o = gameObject).layer = LayerMask.NameToLayer("Background");
             moveSpeed = 0;
-            
-            yield return new WaitForSecondsRealtime(3f);
-            Destroy(gameObject);
+            yield return new WaitForSecondsRealtime(2f);
+            Destroy(o);
         }
     }
     

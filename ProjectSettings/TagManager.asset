@@ -7,6 +7,7 @@ TagManager:
   - Enemy
   - Not allow
   - Bullet
+  - Enemy's bullet
   layers:
   - Default
   - TransparentFX
@@ -23,7 +24,7 @@ TagManager:
   - Bullets
   - NotAllow
   - Interactables
-  - 
+  - Enemy's bullet
   - 
   - 
   - 
@@ -67,6 +68,9 @@ TagManager:
     locked: 0
   - name: Bullets
     uniqueID: 3056497771
+    locked: 0
+  - name: Enemy's bullet
+    uniqueID: 3571071099
     locked: 0
   - name: Player
     uniqueID: 3343075009

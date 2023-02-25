@@ -12,7 +12,7 @@ public class Bullet : MonoBehaviour
         _rgbd = GetComponent<Rigidbody2D>();
         _player = FindObjectOfType<PlayerMovement>();
         _xSpeed = _player.transform.localScale.x * bulletSpeed;
-        Destroy(gameObject,1);
+        Destroy(gameObject,0.5f);
     }
 
     void Update()
