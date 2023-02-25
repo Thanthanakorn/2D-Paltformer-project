@@ -19,6 +19,8 @@ public class PlayerMovement : MonoBehaviour
     private CircleCollider2D _myCircleCollider;
     private BoxCollider2D _myBoxCollider;
     private bool _isAlive = true;
+    private bool _isMoving;
+    
     private static readonly int IsJumping = Animator.StringToHash("isJumping");
     private static readonly int IsRunning = Animator.StringToHash("isRunning");
     private static readonly int IsShooting = Animator.StringToHash("isShooting");
@@ -39,6 +41,7 @@ public class PlayerMovement : MonoBehaviour
         Run();
         FlipSprite();
         Die();
+        Transporter();
         if (!_myCapsuleCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
         {
             _myAnimator.SetBool(IsJumping, false);
@@ -58,12 +61,11 @@ public class PlayerMovement : MonoBehaviour
     {
         if(!_isAlive) {return;}
         _moveInput = value.Get<Vector2>();
-        Debug.Log(_moveInput);
     }
     
     void Run()
     {
-        if (_myBoxCollider.IsTouchingLayers(LayerMask.GetMask("Ground")) && !_myCircleCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
+        if (_myBoxCollider.IsTouchingLayers(LayerMask.GetMask("Ground")) && !_myCircleCollider.IsTouchingLayers(LayerMask.GetMask("Ground","Transporter")))
         {
             return;
         }
@@ -73,13 +75,15 @@ public class PlayerMovement : MonoBehaviour
         _rgbd2D.velocity = velocity;
 
         bool playerHasHorizontalSpeed = Mathf.Abs(velocity.x) >  Mathf.Epsilon;
-        if(playerHasHorizontalSpeed) 
+        if(playerHasHorizontalSpeed)
         {
+            _isMoving = true;
             _myAnimator.SetBool(IsRunning, true);
 
         }
         else
         {
+            _isMoving = false;
             _myAnimator.SetBool(IsRunning, false);
         }
     }
@@ -88,7 +92,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if(!_isAlive) {return;}
 
-        if (!_myCircleCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
+        if (!_myCircleCollider.IsTouchingLayers(LayerMask.GetMask("Ground","Transporter")))
         {
             return;
         }
@@ -126,5 +130,26 @@ public class PlayerMovement : MonoBehaviour
         yield return new WaitForSecondsRealtime(1f);
         
         FindObjectOfType<GameSession>().ProcessPlayerDeath();
+    }
+    
+    private void Transporter()
+    {
+        if (!_myCircleCollider.IsTouchingLayers(LayerMask.GetMask("Transporter")))
+        {
+            return;
+        }
+
+        if (!_isMoving)
+        {
+            _rgbd2D.velocity = new Vector2(-2f, _rgbd2D.velocity.y);
+        }
+        else
+        {
+            float tempSpeed = speed * 0.5f;
+            var velocity = _rgbd2D.velocity;
+            Vector2 playerVelocity = new Vector2(_moveInput.x * tempSpeed, velocity.y);
+            velocity = playerVelocity;
+            _rgbd2D.velocity = velocity;
+        }
     }
 }

@@ -8,6 +8,7 @@ TagManager:
   - Not allow
   - Bullet
   - Enemy's bullet
+  - Transporter
   layers:
   - Default
   - TransparentFX
@@ -25,7 +26,7 @@ TagManager:
   - NotAllow
   - Interactables
   - Enemy's bullet
-  - 
+  - Transporter
   - 
   - 
   - 
@@ -62,6 +63,9 @@ TagManager:
     locked: 0
   - name: NotAllow
     uniqueID: 1395876801
+    locked: 0
+  - name: Transporter
+    uniqueID: 3600508989
     locked: 0
   - name: Hazards
     uniqueID: 2179914015
