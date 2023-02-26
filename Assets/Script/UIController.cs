@@ -19,7 +19,7 @@ public class UIController : MonoBehaviour
 
     void StartButtonPressed()
     {
-        SceneManager.LoadScene("Green-zone");
+        SceneManager.LoadScene("Select difficulty");
     }
 
     void CreditButtonPressed()

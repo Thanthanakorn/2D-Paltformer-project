@@ -8007,6 +8007,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3323680230881572177, guid: 70bf206b677b340deb3ccdfe2d1f3904, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 682.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 3323680230881572177, guid: 70bf206b677b340deb3ccdfe2d1f3904, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 447.77
+      objectReference: {fileID: 0}
     - target: {fileID: 4648690920711189529, guid: 70bf206b677b340deb3ccdfe2d1f3904, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -8054,6 +8062,14 @@ PrefabInstance:
     - target: {fileID: 5314960626774226974, guid: 70bf206b677b340deb3ccdfe2d1f3904, type: 3}
       propertyPath: m_Name
       value: Game Session
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447252797485514455, guid: 70bf206b677b340deb3ccdfe2d1f3904, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -795
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447252797485514455, guid: 70bf206b677b340deb3ccdfe2d1f3904, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 442
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70bf206b677b340deb3ccdfe2d1f3904, type: 3}

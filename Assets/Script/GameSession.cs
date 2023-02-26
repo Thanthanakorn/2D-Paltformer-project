@@ -4,12 +4,11 @@ using TMPro;
 
 public class GameSession : MonoBehaviour
 {
-    [SerializeField] public int playerLives = 3;
+    [SerializeField] public int playerLives;
     [SerializeField] private int score;
 
     [SerializeField] private TextMeshProUGUI livesText;
     [SerializeField] private TextMeshProUGUI scoreText;
-
     void Awake() 
     {
         // ----------------
@@ -41,8 +40,14 @@ public class GameSession : MonoBehaviour
         scoreText.text = score.ToString();  // if we change the value and we want UI to update
                                             // we must do that manually
     }
+    
+    public void SetPlayerLives(int newLives)
+    {
+        playerLives = newLives;
+    }
 
-    public void ProcessPlayerDeath() // This is public. When John dies, he will call this.
+
+    public void ProcessPlayerDeath() 
     {
         if(playerLives > 1) 
         {

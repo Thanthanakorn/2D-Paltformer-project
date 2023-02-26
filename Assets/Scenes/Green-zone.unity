@@ -1452,7 +1452,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -2115053281
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -6544,7 +6544,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3484762564837806717, guid: f9da96a1ad27f4b638bec96c90b71687, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3484762564837806717, guid: f9da96a1ad27f4b638bec96c90b71687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6625,7 +6625,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6149769566751327818, guid: 10954a70fea6040f3a6950c974f71312, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6149769566751327818, guid: 10954a70fea6040f3a6950c974f71312, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6955,6 +6955,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3323680230881572177, guid: 70bf206b677b340deb3ccdfe2d1f3904, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 682.36
+      objectReference: {fileID: 0}
     - target: {fileID: 4648690920711189529, guid: 70bf206b677b340deb3ccdfe2d1f3904, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -7002,6 +7006,10 @@ PrefabInstance:
     - target: {fileID: 5314960626774226974, guid: 70bf206b677b340deb3ccdfe2d1f3904, type: 3}
       propertyPath: m_Name
       value: Game Session
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447252797485514455, guid: 70bf206b677b340deb3ccdfe2d1f3904, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -790
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70bf206b677b340deb3ccdfe2d1f3904, type: 3}
