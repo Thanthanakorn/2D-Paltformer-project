@@ -9,6 +9,8 @@ public class EnemyMovement : MonoBehaviour
     private Animator _myAnimator;
     private CapsuleCollider2D _myCapsuleCollider;
     
+    [SerializeField] private AudioClip dyingSfx;
+    
     private static readonly int IsWalking = Animator.StringToHash("isWalking");
     private static readonly int IsDying = Animator.StringToHash("isDying");
 
@@ -58,6 +60,7 @@ public class EnemyMovement : MonoBehaviour
             _rgbd2D.isKinematic = false;
             _myCapsuleCollider.size = new Vector2(0.4f, 0.03f);
             _myAnimator.SetTrigger(IsDying);
+            AudioSource.PlayClipAtPoint(dyingSfx, Camera.main.transform.position, .3f);
             GameObject o;
             (o = gameObject).layer = LayerMask.NameToLayer("Background");
             moveSpeed = 0;

@@ -21,6 +21,9 @@ public class PlayerMovement : MonoBehaviour
     private bool _isAlive = true;
     private bool _isMoving;
     
+    [SerializeField] private AudioClip shootingSfx;
+    [SerializeField] private AudioClip dyingSfx;
+    
     private static readonly int IsJumping = Animator.StringToHash("isJumping");
     private static readonly int IsRunning = Animator.StringToHash("isRunning");
     private static readonly int IsShooting = Animator.StringToHash("isShooting");
@@ -107,6 +110,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if(!_isAlive){ return;}
         _myAnimator.SetTrigger(IsShooting);
+        AudioSource.PlayClipAtPoint(shootingSfx, Camera.main.transform.position, .3f);
         Instantiate(bullet, gun.position, transform.rotation);
     }
 
@@ -119,7 +123,7 @@ public class PlayerMovement : MonoBehaviour
             _rgbd2D.velocity = deathKick;
             _myCapsuleCollider.size = new Vector2(0.5f, 0.7f);
             _myCircleCollider.radius = 0;
-            
+            AudioSource.PlayClipAtPoint(dyingSfx, Camera.main.transform.position, .3f);
             //Get the Session object
             StartCoroutine(InformGameSession());
         }

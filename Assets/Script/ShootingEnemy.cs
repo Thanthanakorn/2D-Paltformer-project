@@ -12,6 +12,8 @@ public class ShootingEnemy : MonoBehaviour
     [SerializeField] private float shootInterval = 2f;
     private bool _isShooting;
     
+    [SerializeField] private AudioClip dyingSfx;
+    
     private static readonly int IsDying = Animator.StringToHash("isDying");
     
     void Start()
@@ -54,6 +56,7 @@ public class ShootingEnemy : MonoBehaviour
             gun.position = new Vector3(-6, -6, 0);
             shootingRange = 0;
             _myAnimator.SetTrigger(IsDying);
+            AudioSource.PlayClipAtPoint(dyingSfx, Camera.main.transform.position, .3f);
             GameObject o;
             (o = gameObject).layer = LayerMask.NameToLayer("Background");
             yield return new WaitForSecondsRealtime(2.5f);

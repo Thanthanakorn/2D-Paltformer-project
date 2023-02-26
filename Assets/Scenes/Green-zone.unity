@@ -6774,6 +6774,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1128798798858914098, guid: 6cc232ec9f9234493bcda89c7faffb89, type: 3}
+      propertyPath: dyingSfx
+      value: 
+      objectReference: {fileID: 8300000, guid: 82aee5511a86c4633aa6505f4d67ddf0, type: 3}
+    - target: {fileID: 1128798798858914098, guid: 6cc232ec9f9234493bcda89c7faffb89, type: 3}
       propertyPath: moveSpeed
       value: 3
       objectReference: {fileID: 0}
@@ -6786,9 +6790,17 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2997201967219568773, guid: 6cc232ec9f9234493bcda89c7faffb89, type: 3}
+      propertyPath: dyingSfx
+      value: 
+      objectReference: {fileID: 8300000, guid: 82aee5511a86c4633aa6505f4d67ddf0, type: 3}
+    - target: {fileID: 2997201967219568773, guid: 6cc232ec9f9234493bcda89c7faffb89, type: 3}
       propertyPath: moveSpeed
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 4247803257186528940, guid: 6cc232ec9f9234493bcda89c7faffb89, type: 3}
+      propertyPath: dyingSfx
+      value: 
+      objectReference: {fileID: 8300000, guid: 82aee5511a86c4633aa6505f4d67ddf0, type: 3}
     - target: {fileID: 4247803257186528940, guid: 6cc232ec9f9234493bcda89c7faffb89, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -6814,17 +6826,33 @@ PrefabInstance:
       value: -1.55
       objectReference: {fileID: 0}
     - target: {fileID: 5148053247474071670, guid: 6cc232ec9f9234493bcda89c7faffb89, type: 3}
+      propertyPath: dyingSfx
+      value: 
+      objectReference: {fileID: 8300000, guid: 82aee5511a86c4633aa6505f4d67ddf0, type: 3}
+    - target: {fileID: 5148053247474071670, guid: 6cc232ec9f9234493bcda89c7faffb89, type: 3}
       propertyPath: moveSpeed
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 5148053247645896349, guid: 6cc232ec9f9234493bcda89c7faffb89, type: 3}
+      propertyPath: dyingSfx
+      value: 
+      objectReference: {fileID: 8300000, guid: 82aee5511a86c4633aa6505f4d67ddf0, type: 3}
     - target: {fileID: 5148053247645896349, guid: 6cc232ec9f9234493bcda89c7faffb89, type: 3}
       propertyPath: moveSpeed
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5148053247956425038, guid: 6cc232ec9f9234493bcda89c7faffb89, type: 3}
+      propertyPath: dyingSfx
+      value: 
+      objectReference: {fileID: 8300000, guid: 82aee5511a86c4633aa6505f4d67ddf0, type: 3}
+    - target: {fileID: 5148053247956425038, guid: 6cc232ec9f9234493bcda89c7faffb89, type: 3}
       propertyPath: moveSpeed
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 5148053248035281486, guid: 6cc232ec9f9234493bcda89c7faffb89, type: 3}
+      propertyPath: dyingSfx
+      value: 
+      objectReference: {fileID: 8300000, guid: 82aee5511a86c4633aa6505f4d67ddf0, type: 3}
     - target: {fileID: 5148053248035281486, guid: 6cc232ec9f9234493bcda89c7faffb89, type: 3}
       propertyPath: moveSpeed
       value: 3
@@ -6873,6 +6901,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8855172237039699960, guid: 6cc232ec9f9234493bcda89c7faffb89, type: 3}
+      propertyPath: dyingSfx
+      value: 
+      objectReference: {fileID: 8300000, guid: 82aee5511a86c4633aa6505f4d67ddf0, type: 3}
     - target: {fileID: 8855172237039699960, guid: 6cc232ec9f9234493bcda89c7faffb89, type: 3}
       propertyPath: moveSpeed
       value: 3

@@ -11,7 +11,7 @@ public class BobotBoss : MonoBehaviour
     private bool _isShooting;
     [SerializeField] private int hp = 10;
     public GameObject explosion;
-    
+    [SerializeField] private AudioClip shootingSfx;
     void Start()
     {
         _rgbd2D = GetComponent<Rigidbody2D>();
@@ -31,6 +31,7 @@ public class BobotBoss : MonoBehaviour
         _isShooting = true;
         yield return new WaitForSecondsRealtime(shootInterval);
         Instantiate(bulletPrefab, gun.position, transform.rotation);
+        AudioSource.PlayClipAtPoint(shootingSfx, Camera.main.transform.position, .3f);
         _isShooting = false;
     }
     

@@ -208,6 +208,8 @@ MonoBehaviour:
   deathKick: {x: 0, y: 2}
   bullet: {fileID: 8790143782240771158, guid: aba0332cfb4724467843404f2598a180, type: 3}
   gun: {fileID: 6149769567478614148}
+  shootingSfx: {fileID: 8300000, guid: 6c65b8be8dcdc4017bc455616751f0d6, type: 3}
+  dyingSfx: {fileID: 8300000, guid: 04b21679f66a2448e9512adb815ede17, type: 3}
 --- !u!114 &6149769566751327822
 MonoBehaviour:
   m_ObjectHideFlags: 0

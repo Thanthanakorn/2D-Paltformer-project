@@ -603,6 +603,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6149769566751327818, guid: 10954a70fea6040f3a6950c974f71312, type: 3}
     - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
+      propertyPath: dyingSfx
+      value: 
+      objectReference: {fileID: 8300000, guid: ea48b0b17b81c4729a524a4a8f94dff8, type: 3}
+    - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
       propertyPath: shootingRange
       value: 2
       objectReference: {fileID: 0}
@@ -1150,6 +1154,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6149769566751327818, guid: 10954a70fea6040f3a6950c974f71312, type: 3}
     - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
+      propertyPath: dyingSfx
+      value: 
+      objectReference: {fileID: 8300000, guid: ea48b0b17b81c4729a524a4a8f94dff8, type: 3}
+    - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
       propertyPath: shootingRange
       value: 2
       objectReference: {fileID: 0}
@@ -1640,6 +1648,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6149769566751327818, guid: 10954a70fea6040f3a6950c974f71312, type: 3}
     - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
+      propertyPath: dyingSfx
+      value: 
+      objectReference: {fileID: 8300000, guid: ea48b0b17b81c4729a524a4a8f94dff8, type: 3}
+    - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
       propertyPath: shootingRange
       value: 2
       objectReference: {fileID: 0}
@@ -1709,6 +1721,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 6149769566751327818, guid: 10954a70fea6040f3a6950c974f71312, type: 3}
+    - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
+      propertyPath: dyingSfx
+      value: 
+      objectReference: {fileID: 8300000, guid: ea48b0b17b81c4729a524a4a8f94dff8, type: 3}
     - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
       propertyPath: shootingRange
       value: 2
@@ -1820,6 +1836,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 6149769566751327818, guid: 10954a70fea6040f3a6950c974f71312, type: 3}
+    - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
+      propertyPath: dyingSfx
+      value: 
+      objectReference: {fileID: 8300000, guid: ea48b0b17b81c4729a524a4a8f94dff8, type: 3}
     - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
       propertyPath: shootingRange
       value: 2
@@ -2882,6 +2902,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6149769566751327818, guid: 10954a70fea6040f3a6950c974f71312, type: 3}
     - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
+      propertyPath: dyingSfx
+      value: 
+      objectReference: {fileID: 8300000, guid: ea48b0b17b81c4729a524a4a8f94dff8, type: 3}
+    - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
       propertyPath: shootingRange
       value: 2
       objectReference: {fileID: 0}
@@ -3498,6 +3522,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6149769566751327818, guid: 10954a70fea6040f3a6950c974f71312, type: 3}
     - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
+      propertyPath: dyingSfx
+      value: 
+      objectReference: {fileID: 8300000, guid: ea48b0b17b81c4729a524a4a8f94dff8, type: 3}
+    - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
       propertyPath: shootingRange
       value: 2
       objectReference: {fileID: 0}
@@ -3976,6 +4004,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6149769566751327818, guid: 10954a70fea6040f3a6950c974f71312, type: 3}
     - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
+      propertyPath: dyingSfx
+      value: 
+      objectReference: {fileID: 8300000, guid: ea48b0b17b81c4729a524a4a8f94dff8, type: 3}
+    - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
       propertyPath: shootingRange
       value: 2
       objectReference: {fileID: 0}
@@ -4056,6 +4088,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 6149769566751327818, guid: 10954a70fea6040f3a6950c974f71312, type: 3}
+    - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
+      propertyPath: dyingSfx
+      value: 
+      objectReference: {fileID: 8300000, guid: ea48b0b17b81c4729a524a4a8f94dff8, type: 3}
     - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
       propertyPath: shootingRange
       value: 2
@@ -4306,6 +4342,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6149769566751327818, guid: 10954a70fea6040f3a6950c974f71312, type: 3}
     - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
+      propertyPath: dyingSfx
+      value: 
+      objectReference: {fileID: 8300000, guid: ea48b0b17b81c4729a524a4a8f94dff8, type: 3}
+    - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
       propertyPath: shootingRange
       value: 2
       objectReference: {fileID: 0}
@@ -4375,6 +4415,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 6149769566751327818, guid: 10954a70fea6040f3a6950c974f71312, type: 3}
+    - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
+      propertyPath: dyingSfx
+      value: 
+      objectReference: {fileID: 8300000, guid: ea48b0b17b81c4729a524a4a8f94dff8, type: 3}
     - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
       propertyPath: shootingRange
       value: 2
@@ -8063,6 +8107,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Game Session
       objectReference: {fileID: 0}
+    - target: {fileID: 7887193768916997759, guid: 70bf206b677b340deb3ccdfe2d1f3904, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8447252797485514455, guid: 70bf206b677b340deb3ccdfe2d1f3904, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -795
@@ -8238,7 +8286,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6149769566751327818, guid: 10954a70fea6040f3a6950c974f71312, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6149769566751327818, guid: 10954a70fea6040f3a6950c974f71312, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8900,6 +8948,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 6149769566751327818, guid: 10954a70fea6040f3a6950c974f71312, type: 3}
+    - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
+      propertyPath: dyingSfx
+      value: 
+      objectReference: {fileID: 8300000, guid: ea48b0b17b81c4729a524a4a8f94dff8, type: 3}
     - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
       propertyPath: shootingRange
       value: 2
@@ -26270,6 +26322,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6149769566751327818, guid: 10954a70fea6040f3a6950c974f71312, type: 3}
     - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
+      propertyPath: dyingSfx
+      value: 
+      objectReference: {fileID: 8300000, guid: ea48b0b17b81c4729a524a4a8f94dff8, type: 3}
+    - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
       propertyPath: shootingRange
       value: 2
       objectReference: {fileID: 0}
@@ -26623,6 +26679,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6149769566751327818, guid: 10954a70fea6040f3a6950c974f71312, type: 3}
     - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
+      propertyPath: dyingSfx
+      value: 
+      objectReference: {fileID: 8300000, guid: ea48b0b17b81c4729a524a4a8f94dff8, type: 3}
+    - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
       propertyPath: shootingRange
       value: 2
       objectReference: {fileID: 0}
@@ -26707,6 +26767,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 6149769566751327818, guid: 10954a70fea6040f3a6950c974f71312, type: 3}
+    - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
+      propertyPath: dyingSfx
+      value: 
+      objectReference: {fileID: 8300000, guid: ea48b0b17b81c4729a524a4a8f94dff8, type: 3}
     - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
       propertyPath: shootingRange
       value: 2
@@ -27312,6 +27376,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6149769566751327818, guid: 10954a70fea6040f3a6950c974f71312, type: 3}
     - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
+      propertyPath: dyingSfx
+      value: 
+      objectReference: {fileID: 8300000, guid: ea48b0b17b81c4729a524a4a8f94dff8, type: 3}
+    - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
       propertyPath: shootingRange
       value: 2
       objectReference: {fileID: 0}
@@ -27845,6 +27913,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6149769566751327818, guid: 10954a70fea6040f3a6950c974f71312, type: 3}
     - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
+      propertyPath: dyingSfx
+      value: 
+      objectReference: {fileID: 8300000, guid: ea48b0b17b81c4729a524a4a8f94dff8, type: 3}
+    - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
       propertyPath: shootingRange
       value: 2
       objectReference: {fileID: 0}
@@ -28242,6 +28314,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 6149769566751327818, guid: 10954a70fea6040f3a6950c974f71312, type: 3}
+    - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
+      propertyPath: dyingSfx
+      value: 
+      objectReference: {fileID: 8300000, guid: ea48b0b17b81c4729a524a4a8f94dff8, type: 3}
     - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
       propertyPath: shootingRange
       value: 2
@@ -29948,6 +30024,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6149769566751327818, guid: 10954a70fea6040f3a6950c974f71312, type: 3}
     - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
+      propertyPath: dyingSfx
+      value: 
+      objectReference: {fileID: 8300000, guid: ea48b0b17b81c4729a524a4a8f94dff8, type: 3}
+    - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
       propertyPath: shootingRange
       value: 2
       objectReference: {fileID: 0}
@@ -30171,6 +30251,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 6149769566751327818, guid: 10954a70fea6040f3a6950c974f71312, type: 3}
+    - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
+      propertyPath: dyingSfx
+      value: 
+      objectReference: {fileID: 8300000, guid: ea48b0b17b81c4729a524a4a8f94dff8, type: 3}
     - target: {fileID: 6132651317415551405, guid: a666d64f0bab548678968805331e5262, type: 3}
       propertyPath: shootingRange
       value: 2
