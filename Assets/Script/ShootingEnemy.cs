@@ -12,7 +12,6 @@ public class ShootingEnemy : MonoBehaviour
     [SerializeField] private float shootInterval = 2f;
     private bool _isShooting;
     
-    private static readonly int IsWalking = Animator.StringToHash("isWalking");
     private static readonly int IsDying = Animator.StringToHash("isDying");
     
     void Start()
@@ -25,7 +24,6 @@ public class ShootingEnemy : MonoBehaviour
     {
         if (Vector2.Distance(transform.position, player.position) < shootingRange)
         {
-            //_rgbd2D.velocity = new Vector2(moveSpeed, 0f);
             FlipEnemyFacing();
         }
         if (!_isShooting)

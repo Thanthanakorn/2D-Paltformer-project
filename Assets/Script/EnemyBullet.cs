@@ -4,6 +4,7 @@ using UnityEngine;
 public class EnemyBullet : MonoBehaviour
 {
     [SerializeField] private float bulletSpeed = 10f;
+    [SerializeField] private float bulletTime = 1.5f;
     private Vector3 _playerPosition;
     private Rigidbody2D _rb2d;
 
@@ -21,7 +22,7 @@ public class EnemyBullet : MonoBehaviour
 
     IEnumerator DestroyBullet()
     {
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(bulletTime);
         Destroy(gameObject);
     }
     

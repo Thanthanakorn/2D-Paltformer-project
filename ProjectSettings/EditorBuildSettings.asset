@@ -15,7 +15,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Industrial-zone.unity
     guid: 368e73d237b5640a6a27cd2c75326eff
   - enabled: 1
+    path: Assets/Scenes/LastBoss Scene.unity
+    guid: 16bcb154967ad49d69bf9081089469f9
+  - enabled: 1
     path: Assets/Scenes/Credit.unity
-    guid: 68ff79e5a6ad547c5a7efcac00e66368
+    guid: 69166e3f543cc4f289954e1e7b2ff8ed
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 3b85029f8f62d48dcaba5a3b9b42f80c, type: 2}
